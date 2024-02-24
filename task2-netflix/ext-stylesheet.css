@@ -1,0 +1,93 @@
+body{
+   font-family: sans-serif;
+   background-image: url(./Assets/Images/netflix-img.jpg);
+   position: relative; 
+}
+
+form>input,button{
+    background-color: rgb(97, 91, 91);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    width: 220px;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+header{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 228px;
+    padding: 40px;
+    position: absolute;
+    top: 120px;
+    left: 530px;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: red;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color:dimgray;
+    font-size: 10px;
+}
+
+label,section>a{
+    color: gainsboro;
+    font-size: 9px;
+}
+
+label,#help{
+    font-weight: 300;
+}
+
+#checkbox{
+    margin: 0;
+}
+
+section{
+    position: relative;
+}
+
+#help{
+    position: relative;
+    left: 90px;
+}
+
+#sign{
+    font-size: 10px;
+    padding-left: 3px;
+}
+
+#p1{
+    margin-top: 45px;
+}
+
+#p2{
+    width: 220px;
+}
+
+#pa{
+    color: rgb(57, 57, 201);
+}
+
+

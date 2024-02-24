@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(241, 243, 245);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h1{
+    color: rgb(31, 79, 239);
+    font-size: 58px;
+    margin: 0px 0;
+}
+
+#s1{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+#s2{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+}
+
+article{
+    border-bottom: 1px solid hsl(231,7%,60%);
+}
+
+input,button{
+    border-color: rgb(234,234,238);
+    border-style: solid;
+    border-radius: 6px;
+    height: 53px;
+    width: 350px;
+    color: hsl(231,7%,60%);
+    background-color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#login{
+    color: white;
+    background-color: rgb(40,133,240);
+    font-size: 22px;
+    border: none;
+    font-weight: 600;
+}
+
+#b{
+    color: white;
+    background-color: rgb(16,169,16);
+    border: none;
+    font-weight: 600;
+    width: 192px;
+    margin: 26px 65px ;
+}
+
+a{
+    text-decoration: none;
+}
+
+a>p{
+    color: rgb(77,117,249);
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+    bottom: 10px;
+}
+
+p{
+    color: rgb(65 65 65);
+    font-size: 29px;
+    font-weight: 300;
+    width: 550px;
+    margin: 0;
+}
